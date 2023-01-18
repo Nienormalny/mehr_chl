@@ -1,0 +1,38 @@
+.alert-card-container {
+    box-shadow: 0px 4px 20px rgba(77, 108, 140, 0.3);
+    padding: 1.625rem 0.812rem;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    width: 320px;
+    height: 93px;
+    position: relative;
+    .alert-card-icon {
+        width: 43px;
+        aspect-ratio: 1/1;
+    }
+    .alert-card-info-container {
+        margin-left: 10px;
+        .alert-card-title {
+            font-weight: bold;
+            margin: 0;
+            color: $primary-color;
+        }
+        .alert-card-description {
+            margin: 0;
+            font-size: $textXs;
+            color: $primary-color;
+            margin-top: 8px;
+        }
+    }
+    .alert-card-close-btn {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
+}

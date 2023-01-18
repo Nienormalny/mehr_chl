@@ -1,0 +1,27 @@
+.info-card-container {
+    display: flex;
+    position: relative;
+    background-color: $tertiary-color;
+    padding: 72px 35px;
+    width: 368px;
+    border-radius: .5rem;
+    .info-card-bottom {
+        height: 19px;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .info-card-title {
+        font-weight: bold;
+        font-size: $textMd;
+        line-height: $lhMd;
+    }
+    .info-card-description {
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: $textMd;
+        line-height: $lhMd;
+    }
+}

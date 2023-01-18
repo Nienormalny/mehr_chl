@@ -1,0 +1,11 @@
+$primary-color: #2e3b4b;
+$secondary-color: #DD4314;
+$tertiary-color: white;
+
+$nav-bg: $tertiary-color;
+$card-bg: $nav-bg;
+
+$primary-linear-gradient: linear-gradient(to bottom , rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 1));
+$secondary-linear-gradient: linear-gradient(transparentize($primary-color, 1), transparentize($primary-color, 0));
+
+$nav-link-color: #666666;
